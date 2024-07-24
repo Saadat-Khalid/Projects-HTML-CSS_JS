@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
+    <title>Responsive Portfolio Website</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOX Icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <a href="#" class="logo">Saadat</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Text and Image -->
+     <section id="home">
+        <div class="home-text">
+            <h1>Hey, I'm <br>Saadat <span>Khalid</span> <br> Web Developer</h1>
+
+            <!-- Button -->
+             <a href="#">Hire Me</a>
+        </div>
+
+        <!-- Home Image-->
+         <div class="home-img">
+            <img src="images/image.png" width="550px" height="550px" alt="">  
+         </div>
+
+         <!-- Social -->
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></a></i>
+            <a href="#"><i class="bx bxl-twitter"></a></i>
+            <a href="#"><i class="bx bxl-github"></a></i>
+
+        </div>
+     </section>
+
+     <!-- About Section -->
+      <section id="about">
+        <!-- Heading -->
+         <div class="heading">
+            <h2>About</h2>
+            <p>My Introduction</p>
+         </div>
+
+         <!-- About Content-->
+          <div class="about-content">
+            <div class="about-img">
+                <img src="images/image1.png" width="550px" height="550px"alt="">
+            </div>
+            <div class="about-text">
+                <h1>I'm Saadat</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro eligendi qui, aspernatur, fuga, temporibus accusantium officiis sapiente possimus est esse dolore placeat. Commodi, amet dignissimos deleniti assumenda laudantium aut? Repellat!</p>
+                <!-- Button -->
+                 <a href="#"">Download CV</a>
+            </div>
+          </div>
+      </section>
+
+      <!-- Services-->
+       <section id="services">
+        
+        <!--heading-->
+        <div class="heading">
+            <h2>Services</h2>
+            <p>Services We Offer, </p>
+        </div>
+
+        <!-- Box -->
+        <div class="services-content">
+            <div class="box">
+                <img src="images/html.png" alt="">
+                <h1>HTML Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, incidunt. Perspiciatis recusandae repellendus, accusantium sed aliquid ullam voluptatibus cupiditate itaque culpa, labore omnis iusto adipisci fuga! Veniam molestias repudiandae velit.</p>
+            </div>
+
+
+            <div class="box">
+                <img src="images/css.png" alt="">
+                <h1>CSS Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, incidunt. Perspiciatis recusandae repellendus, accusantium sed aliquid ullam voluptatibus cupiditate itaque culpa, labore omnis iusto adipisci fuga! Veniam molestias repudiandae velit.</p>
+            </div>
+
+
+            <div class="box">
+                <img src="images/js.png" alt="">
+                <h1>JavaSCript Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, incidunt. Perspiciatis recusandae repellendus, accusantium sed aliquid ullam voluptatibus cupiditate itaque culpa, labore omnis iusto adipisci fuga! Veniam molestias repudiandae velit.</p>
+            </div>
+
+
+            <div class="box">
+                <img src="images/ux.png" alt="">
+                <h1>Ux/UI Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, incidunt. Perspiciatis recusandae repellendus, accusantium sed aliquid ullam voluptatibus cupiditate itaque culpa, labore omnis iusto adipisci fuga! Veniam molestias repudiandae velit.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/wordpress.png" alt="">
+                <h1>Wordpress Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, incidunt. Perspiciatis recusandae repellendus, accusantium sed aliquid ullam voluptatibus cupiditate itaque culpa, labore omnis iusto adipisci fuga! Veniam molestias repudiandae velit.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/prototype.png" alt="">
+                <h1>Prototype Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, incidunt. Perspiciatis recusandae repellendus, accusantium sed aliquid ullam voluptatibus cupiditate itaque culpa, labore omnis iusto adipisci fuga! Veniam molestias repudiandae velit.</p>
+            </div>
+        </div>
+       </section>
+
+       <!-- Work Section -->
+        <section id="work">
+            <div class="heading">
+                <h2>Work</h2>
+                <p> Work With Us </p>
+            </div>
+
+            <div class="work-content">
+                <div class="work-text">
+                    <h1>WE Believe To Deliver Best <br> Quality Work</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, quaerat molestiae laborum maiores error quod iste, voluptatibus eius consectetur quas nam soluta voluptatem veritatis sapiente saepe quisquam est sequi culpa!</p>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="work-img">
+                    <img src="images/work.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+         <section id="contact">
+            <div class="heading color">
+                <h2>Contact</h2>
+                <p>Leave a message we will try to reply in 24 hours.</p>
+            </div>
+
+            <div id="contact-content">
+                <div class="app">
+                    <h1>Connect with Us <br>By Our Apps</h1>
+                    <a href="#"><i class="bx bxl-play-store"></i></a>
+                    <a href="#"><i class="bx bxl-apple"></i></a>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Your E-mail">
+                        <textarea name="" id="" cols="30" rows="30" placeholder="Your Message"></textarea>
+                        <input type="button" value="Send" class="contact-button">
+
+                    </form>
+                </div>
+            </div>
+         </section>
+
+         <!--Copyright-->
+         <div class="copyright">
+            <p>&#169; Saadat's All Right Reserved</p>
+         </div>
+
+
+         <!-- Scroll Reveal -->
+         <script src="https://unpkg.com/scrollreveal"></script>
+
+         <!-- Link to Js -->
+          <script src="main.js"></script>
+</body>
+
+<!-- by Saadat Khalid Awan -->
+ <!-- https://www.linkedin.com/in/saadatawan/ -->
+
+</html>
