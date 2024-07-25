@@ -1,1 +1,1 @@
-# 100-Projects-HTML-CSS_JS
+# Projects-HTML-CSS_JS
